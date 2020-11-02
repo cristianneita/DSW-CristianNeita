@@ -1,14 +1,21 @@
-
-.titulo{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
+}
+
+header{
     background-color: #005883;
-    text-align: center;
+    color:   #F0B429;
+    padding: 40px;
     font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
-    color: #F0B429;
-    margin: 0%;
-    padding: 5px 0px;
-    
+}
+
+header h1{
+    max-width: 800px;
+    font-weight: 500;
 }
 
 .boton{
@@ -66,13 +73,14 @@
     text-align: justify;
     position: absolute;
     background: #005883;
-    width: 85%;
+    width: 100%;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 1.5s;
+    transition: opacity 0.5 s;
 }
 
 .submenu li a{
+    
     display: block;
     padding: 10px;
     color: white;
@@ -85,10 +93,96 @@
     opacity: 1;
 }
 
-.titulo{
+.title{
     
-    font-family: 'Franklin Gothic book', 'Arial Narrow', Arial, sans-serif;
-    font-size: 12px;
-    
+    font-family: 'Franklin Gothic HEAVY', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #005883;
+    margin: 20px;
+}
 
+.texto{
+    font-family: 'Franklin Gothic book', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    margin: 22px;   
+}
+
+.colorb{
+    text-align: justify;
+    
+    
+}
+
+.twitter{
+    margin: 20px;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    color: #005883 ;
+}
+
+footer{
+    background-color: rgb(0, 88, 131,0.8);
+    font-family: 'Franklin Gothic book', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-small;
+    color:  #005883;
+    text-align: center;
+}
+
+.img{
+    margin: 20px;
+}
+
+h5{
+    margin: 20px;
+    font-family: 'Franklin Gothic book', 'Arial Narrow', Arial, sans-serif;
+    color: #B3B3B3;
+}
+
+.title1{
+    background-color: rgb(0, 88, 131,0.5);
+    font-family: 'Franklin Gothic HEAVY', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+}
+
+table, th, td{
+    background-color: rgb(0, 88, 131,0.4);
+    margin: auto;
+    padding: 5px;
+    table-layout: auto;
+    text-align: justify;
+    border: 1px solid  #005883;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th{
+    color: #F0B429;
+    text-align: center;
+} 
+td{
+    color: white;
+    font-family: 'Franklin Gothic book', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fondo{
+    margin: 20px;
+    background-color: rgb(0, 88, 131,0.1);
+}
+
+.margen{
+    margin: 20px;
+    
+}
+
+.imagen{
+    
+    display: block;
+    margin: auto;
+}
+
+.video{
+    text-align: center;
+    background-color: rgb(0, 88, 131,0.1);
 }

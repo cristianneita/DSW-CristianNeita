@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1> ESTRUCTURA BASICA DE HTML5</h1>
+
+    </header>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li><a href="inicio.html">Inicio</a></li>|
+
+            <li><a href="#">Conceptos</a>
+                <ul class="submenu">
+                    <li><a href="concepto1.html">Etiquetas Principales</a></li>
+                    <li><a href="concepto2.html">Atributos</a></li>
+                </ul>
+            </li>|
+            <li><a href="#">Recursos</a>
+                <ul class="submenu">
+                    <li><a href="referencia1.html">Recursos 1</a></li>
+                    <li><a href="referencia2.html">Recursos 2</a></li>
+                </ul>
+            </li>|
+            <li><a href="#">Autoevalucion</a>
+                <ul class="submenu">
+                    <li><a href="#">Autoevalucion 1</a></li>
+                    <li><a href="#">Autoevalucion 2</a></li>
+                </ul>
+            </li>|
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1 class="title1">Atributos en HTML 5:</h1>
+    </div>
+    <div>
+        <p class="texto">Los elementos en HTML tienen atributos; estos son valores adicionales que configuran los
+            elementos o ajustan su comportamiento de diversas formas para cumplir los criterios de los usuarios. Estos
+            son algunos atributos:
+        </p>
+    </div>
+
+    <div class="fondo">
+        <table>
+            <tr>
+                <th>Nombre del atributo </th>
+                <th>Elementos </th>
+                <th>Descripción</th>
+            </tr> 
+            <tr>
+                <td>accept </td>
+                <td>< form>, < input></td>
+                <td>Lista de tipos aceptados por el servidor, usualmente un tipo de archivo</td>
+            </tr> 
+            <tr>
+                <td>accept-charset</td>
+                <td>< form ></td>
+                <td>Lista de juegos de caracteres soportados.</td>
+            </tr> 
+            <tr>
+                <td>action</td>
+                <td>< form ></td>
+                <td>La URL del programa que procesa la información enviada en el formulario.</td>
+            </tr> 
+            <tr>
+                <td>autocomplete</td>
+                <td>< form>, < input></td>
+                <td><p>	Indica si los controles en este formulario pueden tener por defecto 
+                    sus valores completados automáticamente por el navegador.</p></td>
+            </tr> 
+            <tr>
+                <td>autofocus	</td>
+                <td>< button>, < input>, < keygen>, < select>, < textarea></td>
+                <td>El elemento debería recibir foco automáticamente después de haberse cargado la página.
+                    El elemento debería recibir foco automáticamente después de haberse cargado la página.</td>
+
+            </tr>   
+            <tr>
+                <td>autplay </td>
+                <td>< audio>, < video></td>
+                <td>El audio o video debería empezar lo antes posible.</td>
+            </tr> 
+            <tr>
+                <td>bgcolor</td>
+                <td><p> < body>, < col>, < colgroup>, < marquee>, < table>, < tbody>, < tfoot>, < td>, < th>, < tr></p></td>
+                <td>Color de fondo del elemento.</td>
+            </tr>  
+            <tr>
+                <td>border </td>
+                <td>< img>, < object>, < table> </td>
+                <td>El ancho del borde.</td>
+            </tr> 
+            <tr>
+                <td>checked</td>
+                <td>< command>, < input></td>
+                <td>	Indica que el elemento debería estar marcado al cargar la página.</td>
+            </tr> 
+            <tr>
+                <td>color</td>
+                <td>< basefont>, < font>, < hr></td>
+                <td>Este atributo establece el color de texto utilizando un nombre de color o en formato hexadecimal #RRGGBB.</td>
+            </tr> 
+            <tr>
+                <td>download</td>
+                <td>< a>, < area></td>
+                <td>Indica que el hipervínculo es utilizado para descargar un recurso.</td>
+            </tr> 
+            <tr>
+                <td>icon</td>
+                <td>< command></td>
+                <td>Especifica una imagen relacionada con el comando.</td>
+            </tr> 
+            <tr>
+                <td>label</td>
+                <td>< track></td>
+                <td>Especifica el título de la pista con un formato legible por el usuario.</td>
+            </tr> 
+            <tr>
+                <td>low</td>
+                <td>< meter></td>
+                <td>	Indica el valor mas alto del rango bajo.</td>
+            </tr> 
+            <tr>
+                <td>max</td>
+                <td>< input>, < meter>, < progress></td>
+                <td> Indica el máximo valor aceptado.</td>
+            </tr> 
+            <tr>
+                <td>maxlength</td>
+                <td> < input>, < textarea></td>
+                <td></td>
+            </tr> 
+            <tr>
+                <td>muted</td>
+                <td>< video ></td>
+                <td>	Indica si el audio será silenciado inicialmente al cargar la página.</td>
+            </tr> 
+            <tr>
+                <td>name</td>
+                <td> < button>, < form>, < fieldset>, < iframe>, < input>, < keygen>, < object>, < output>, < select>, < textarea>, < map>, < meta>, < param></td>
+                <td>Nombre del elemento. Por ejemplo utilizado por el servidor para identificar los campos en el envio de formularios.</td>
+            </tr>
+            <tr>
+                <td>radiogroup</td>
+                <td> < command></td>
+                <td>Indica los nombres de los comandos de tipo radio, que seran alternados si el comando en si es alternado. 
+                    Este atributo debe ser omitido si el tipo de comando no es radio.</td>
+            </tr>
+            <tr>
+                <td>rows</td>
+                <td>< textarea></td>
+                <td>	Define el número de filas en un área de texto</td>
+            </tr>
+            <tr>
+                <td>rowspan</td>
+                <td>< td>, < th></td>
+                <td>Define el número de filas que una celda de una tabla debe abarcar.</td>
+            </tr>
+            <tr>
+                <td>size	</td>
+                <td>< input>, < select></td>
+                <td>Define el ancho del elemento (en píxeles). Si el atributo del elemento es del tipo text o password entonces es el número de caracteres.</td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td>	Atributo Global</td>
+                <td>	Texto a ser mostrado cuando el cursor esté sobre el elemento.</td>
+            </tr>
+            <tr>
+                <td>width</td>
+                <td>< canvas>, < embed>, < iframe>, < img>, < input>, < object>, < video></td>
+                <td>Para los elementos enumerados aquí, esto establece el ancho del elemento.</td>
+            </tr>
+           </table>
+           <h5>
+               Colaboradores MDN (23 de marzo del 2019). Referencia de Atributos HTML. Mozilla.
+               https://developer.mozilla.org/es/docs/Web/HTML/Atributos
+           </h5>
+    </div>
+
+    <div>
+        <h1 class="title1">Ejemplo 1 de elementos y atributos</h1>
+        <p class="texto">A contiuación ejemplos de los elementos en el codigo de html</p>
+        <img src="Imagenes/atributos.png" alt="Atributos" class="imagen">
+        <h5>Blog de PHP, (2018). Lección 4: Etiquetas y Atributos en HTML 5. Recuperado de: https://www.blogdephp.com/etiquetas-y-atributos-en-html5/</h5>
+        <h1 class="title1">Ejemplo 2 de elementos y atributos</h1>
+        <img src="Imagenes/a2.png" alt="atributos 2" class="imagen">
+        <h5>Anonimo, (2015). Atributos. Recuperado de: http://juanpablouceta.blogspot.com/2015/02/atributos-los-atributos-proporcionan.html</h5>
+        <h1 class="title1">Ejemplo 3 de elementos y atributos</h1>
+        <img src="Imagenes/a3.png" alt="atributos 3" class="imagen">
+        <h5>Delgado Irina, (2020). Etiquetas y atributos en HTML. Recuperado de: https://www.irinadelgado.com/etiquetas-y-atributos-en-html/</h5>
+        <h1 class="title1">Ejemplo 4 de elementos y atributos</h1>
+        <img src="Imagenes/a4.jpg" alt="atributos 4" class="imagen">
+        <h5>Cervantes Jaime,(2018).Primero HTML, luego CSS y Javascript. Recuperado de: https://www.pensemosweb.com/como-crear-primera-pagina-web/</h5>
+        <h1 class="title1">Ejemplo 5 de elementos y atributos</h1>
+        <img src="Imagenes/a5.png" alt="atributos 5" class="imagen">
+        <h5>Barrera Aner, (2015). Las nuevas etiquetas semanticas de estructura HTML5.Recuperado de: https://www.irinadelgado.com/etiquetas-y-atributos-en-html/</h5>
+    </div>
+
+    <br>
+    <div>
+        
+        <a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Imagenes/twitter.png" alt="Twitter" align="right" class="img"></a>
+        <a href="https://www.youtube.com/user/universidadunad"><img src="Imagenes/youtube.png" alt="Youtube"  align="right" class="img"></a>
+        <a href="https://www.instagram.com/universidadunad/?hl=es-la"><img src="Imagenes/insta.png" alt="Youtube"  align="right" class="img"></a>
+    </div>
+
+    <footer class="f">
+        <div>
+            <br>
+            <img src="Imagenes/unad.png" alt="Logo">
+            <br>
+            <h2>Cristian Sebastian Neita Alvarez</h2>
+            <h2>Diseños de sitios web</h2>
+            <br>
+        </div>
+    </footer>
+</body>
+
+</html>
