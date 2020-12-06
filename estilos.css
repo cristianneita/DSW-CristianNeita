@@ -177,10 +177,10 @@ td{
     
 }
 
-.imagen{
-    
+.imagen1{
     display: block;
     margin: auto;
+    width: 350px;
 }
 
 .video{
@@ -205,7 +205,6 @@ td{
 }
 
 .imagen{
-    
     padding-left: 20px;
     width: 350px;
     float: left;
